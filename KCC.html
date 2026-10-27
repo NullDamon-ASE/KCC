@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kinniya Central College</title>
+        <link rel="stylesheet" href="./css/KCC.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="icon" href="./Scl_project_images/Logo.png">
+</head>
+
+<body>
+        <div class="navigationscreen">
+                <div class="navigationbar ">
+                        <div class="btns options">
+                                <button class="menu_bar_btn optn1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px"
+                                                viewBox="0 -960 960 960" fill="#fff">
+                                                <path
+                                                        d="m298-262-56-56 121-122H80v-80h283L242-642l56-56 218 218-218 218Zm222-18v-80h360v80H520Zm0-320v-80h360v80H520Zm120 160v-80h240v80H640Z" />
+                                        </svg>
+                                        <h5>Menu</h5>
+                                </button>
+                                <button class="cancel_btn optn1 hide">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px"
+                                                viewBox="0 -960 960 960" fill="#fff">
+                                                <path
+                                                        d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z" />
+                                        </svg>
+                                        <h5>Menu</h5>
+                                </button>
+                        </div>
+                        <div class="options">
+                                <button class="optn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                                width="24px" fill="#fff">
+                                                <path
+                                                        d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                                        </svg><a href="#" class="link">Home</a>
+                                </button>
+                                <button class="optn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                                width="24px" fill="#fff">
+                                                <path
+                                                        d="M480-120 200-272v-240L40-600l440-240 440 240v320h-80v-276l-80 44v240L480-120Zm0-332 274-148-274-148-274 148 274 148Zm0 241 200-108v-151L480-360 280-470v151l200 108Zm0-241Zm0 90Zm0 0Z" />
+                                        </svg><a href="#" class="link">Academics</a>
+                                </button>
+                                <button class="optn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                                width="24px" fill="#fff">
+                                                <path
+                                                        d="M480-40 360-160H200q-33 0-56.5-23.5T120-240v-560q0-33 23.5-56.5T200-880h560q33 0 56.5 23.5T840-800v560q0 33-23.5 56.5T760-160H600L480-40ZM200-286q54-53 125.5-83.5T480-400q83 0 154.5 30.5T760-286v-514H200v514Zm379-235q41-41 41-99t-41-99q-41-41-99-41t-99 41q-41 41-41 99t41 99q41 41 99 41t99-41ZM280-240h400v-10q-42-35-93-52.5T480-320q-56 0-107 17.5T280-250v10Zm157.5-337.5Q420-595 420-620t17.5-42.5Q455-680 480-680t42.5 17.5Q540-645 540-620t-17.5 42.5Q505-560 480-560t-42.5-17.5ZM480-543Z" />
+                                        </svg><a href="#" class="link">Students</a>
+                                </button>
+                                <button class="optn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                                width="24px" fill="#fff">
+                                                <path
+                                                        d="M360-400h400L622-580l-92 120-62-80-108 140Zm-40 160q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320Zm0-80h480v-480H320v480ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-720v480-480Z" />
+                                        </svg><a href="#" class="link">Gallary</a>
+                                </button>
+                                <button class="optn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                                width="24px" fill="#fff">
+                                                <path
+                                                        d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-440H200v440Z" />
+                                        </svg><a href="#" class="link">Notices</a>
+                                </button>
+
+                                <button class="optn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                                width="24px" fill="#fff">
+                                                <path
+                                                        d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+                                        </svg><a href="#" class="link">Contact</a>
+                                </button>
+                        </div>
+                </div>
+                <div class="toggle_screen "></div>
+        </div>
+        <div class="contain">
+                <div class="head">
+                        <div class="logo">
+                                <img src="./Scl_project_images/Logo.png" style="width: 60px; height: 60px;">
+                                <div class="scl_name">
+                                        <p
+                                                style="color: white; font-size: 18px; font-weight: 600;letter-spacing: 5px; padding-top: 15px;">
+                                                T/KIN/CENTRAL COLLAGE</p>
+                                        <p style="color: #ffe647; font-size: 18px; font-weight: 600;letter-spacing: 5px;"">National School
+                                        </p>
+                                        <p style=" color: white; font-size: 13px;">Learn ∘ Grow ∘ Build a Better
+                                                Tomorrow
+                                        </p>
+                                </div>
+                        </div>
+                </div>
+                <div class="body">
+                        <div class="image">
+                                <img src="./Scl_project_images/ChatGPT Image Sep 19, 2026, 02_16_38 PM.png">
+                                <div class="opacity"></div>
+                                <div class="intro">
+                                        <div class="sub-intro">
+                                                <h5 style="color: #ffe647; letter-spacing: 7px;">Welcome To</h5>
+                                                <div id="box">
+                                                        <h1 style="color: #ffffff;">T/KIN/CENTRAL COLLEGE</h1>
+                                                        <h1 style="color: #ffe647;">National School</h1>
+                                                        <p style="color: #f0f0f0;">Building knowledge, Character and a
+                                                                bright future for every Student.</p>
+                                                        <div id="btn">
+                                                                <button id="Expr-btn" style="font-weight: 650;"><svg
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                height="24px" viewBox="0 -960 960 960"
+                                                                                width="24px" fill="#051e41">
+                                                                                <path
+                                                                                        d="M440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6q47 0 91.5 10.5T440-278Zm40 118q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q74 0 126 17t112 52q11 6 16.5 14t5.5 21v418q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-481q15 5 29.5 11t28.5 14q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59Zm140-240v-440l120-40v440l-120 40Zm-340-99Z" />
+                                                                        </svg>
+                                                                        Explore our School</button>
+                                                                <button id="aboutUs" style="font-weight: 650;"><svg
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                height="24px" viewBox="0 -960 960 960"
+                                                                                width="24px" fill="#fff">
+                                                                                <path
+                                                                                        d="M440-280h80v-240h-80v240Zm68.5-331.5Q520-623 520-640t-11.5-28.5Q497-680 480-680t-28.5 11.5Q440-657 440-640t11.5 28.5Q463-600 480-600t28.5-11.5ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                                                                        </svg>
+                                                                        About us</button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="text1">
+                                <button class="btn">
+                                        <h1>We are providing</h1>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="50px" width="50px"
+                                                viewBox="0 -960 960 960" fill="#fff">
+                                                <path
+                                                        d="M480-80 200-360l56-57 184 184v-287h80v287l184-183 56 56L480-80Zm-40-520v-120h80v120h-80Zm0-200v-80h80v80h-80Z" />
+                                        </svg>
+                                </button>
+                        </div>
+                        <div class="discription">
+                                <div class="comment">
+                                        <div class="sub-comment">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="100px"
+                                                        height="100px" viewBox="-4.2 -4.2 22.40 22.40" role="img"
+                                                        focusable="false" aria-hidden="true" stroke="#ffffff"
+                                                        stroke-width="0.21000000000000002"
+                                                        transform="matrix(-1, 0, 0, 1, 0, 0)">
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                                                transform="translate(0.6299999999999999,0.6299999999999999), scale(0.91)">
+
+                                                                <rect x="-4.2" y="-4.2" width="22.40" height="22.40"
+                                                                        rx="11.2" fill="rgb(5, 30, 65)"
+                                                                        strokewidth="0" />
+
+                                                        </g>
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke="#CCCCCC"
+                                                                stroke-width="0.028000000000000004" />
+                                                        <g id="SVGRepo_iconCarrier">
+                                                                <path
+                                                                        d="m 12.499079,12.25525 c 0.0968,0 0.188377,-0.0436 0.249339,-0.11884 0.06096,-0.0752 0.08473,-0.17385 0.06473,-0.26853 l -0.202146,-0.95662 c 0.115125,-0.11137 0.187491,-0.26686 0.187491,-0.43975 0,-0.182 -0.08106,-0.34343 -0.206876,-0.45558 l 0,-3.32202 -0.810333,0.50146 0,2.82056 c -0.125815,0.11215 -0.2069,0.27358 -0.2069,0.45558 0,0.17291 0.07239,0.32841 0.187515,0.43975 l -0.20217,0.95662 c -0.02,0.0947 0.0038,0.19335 0.06473,0.26853 0.06096,0.0752 0.152539,0.11884 0.249339,0.11884 l 0.625281,0 z M 12.773741,4.75539 7.5021019,1.49209 C 7.3477151,1.39699 7.1736728,1.34925 6.9996305,1.34925 c -0.1740423,0 -0.3482077,0.0477 -0.5016586,0.14284 l -5.271713,3.2633 C 1.0854931,4.84249 0.99999905,4.99633 0.99999905,5.1619 c 0,0.1656 0.085494,0.31949 0.22625985,0.40673 l 5.2716883,3.26333 c 0.153451,0.0952 0.3276163,0.14284 0.5016586,0.14284 0.1740423,0 0.3481092,-0.0477 0.5024714,-0.14284 L 12.773741,5.56863 c 0.140766,-0.0872 0.22626,-0.24113 0.22626,-0.40673 0,-0.16557 -0.08549,-0.31946 -0.22626,-0.40651 z M 6.9996059,9.78508 c -0.3283798,0 -0.6488777,-0.0912 -0.928242,-0.26411 l -3.0750017,-1.90368 0,3.27796 c 0,0.97016 1.7931578,1.7555 4.0032436,1.7555 2.2108742,0 4.0038842,-0.78536 4.0038842,-1.7555 l 0,-3.27796 -3.0748786,1.90368 C 7.6492472,9.69388 7.3279857,9.78508 6.9996059,9.78508 Z" />
+                                                        </g>
+                                                </svg>
+                                                <div class="text">
+                                                        <h5>Quality Education</h5>
+                                                        <p>Academic exellence for a bright future</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="comment">
+                                        <div class="sub-comment">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="90px"
+                                                        height="90px" viewBox="-8.4 -8.4 44.80 44.80" version="1.1"
+                                                        fill="#000000" stroke="#000000"
+                                                        transform="matrix(1, 0, 0, 1, 0, 0)">
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                                                transform="translate(2.0999999999999996,2.0999999999999996), scale(0.85)">
+
+                                                                <rect x="-8.4" y="-8.4" width="44.80" height="44.80"
+                                                                        rx="22.4" fill="rgb(5, 30, 65)"
+                                                                        strokewidth="0" />
+
+                                                        </g>
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke="#CCCCCC"
+                                                                stroke-width="5.4879999999999995">
+                                                                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                                                                <title>ic_fluent_people_community_28_filled</title>
+                                                                <desc>Created with Sketch.</desc>
+                                                                <g id="🔍-Product-Icons" stroke-width="0.00028"
+                                                                        fill="none" fill-rule="evenodd">
+                                                                        <g id="ic_fluent_people_community_28_filled"
+                                                                                fill="#ffffff" fill-rule="nonzero">
+                                                                                <path d="M17.75,18 C18.7164983,18 19.5,18.7835017 19.5,19.75 L19.5,21.7519766 L19.4921156,21.8604403 C19.1813607,23.9866441 17.2715225,25.0090369 14.0667905,25.0090369 C10.8736123,25.0090369 8.93330141,23.9983408 8.51446278,21.8965776 L8.5,21.75 L8.5,19.75 C8.5,18.7835017 9.28350169,18 10.25,18 L17.75,18 Z M18.2439108,11.9999135 L24.25,12 C25.2164983,12 26,12.7835017 26,13.75 L26,15.7519766 L25.9921156,15.8604403 C25.6813607,17.9866441 23.7715225,19.0090369 20.5667905,19.0090369 L20.3985759,19.007437 C20.0900029,17.9045277 19.1110503,17.0815935 17.9288034,17.0057197 L17.75,17 L16.8277704,17.0007255 C17.8477843,16.1757619 18.5,14.9140475 18.5,13.5 C18.5,12.9740145 18.4097576,12.4691063 18.2439108,11.9999135 Z M3.75,12 L9.75608915,11.9999135 C9.59024243,12.4691063 9.5,12.9740145 9.5,13.5 C9.5,14.8308682 10.0777413,16.0267978 10.996103,16.8506678 L11.1722296,17.0007255 L10.25,17 C8.9877951,17 7.92420242,17.85036 7.60086562,19.0094363 L7.5667905,19.0090369 C4.37361228,19.0090369 2.43330141,17.9983408 2.01446278,15.8965776 L2,15.75 L2,13.75 C2,12.7835017 2.78350169,12 3.75,12 Z M14,10 C15.9329966,10 17.5,11.5670034 17.5,13.5 C17.5,15.4329966 15.9329966,17 14,17 C12.0670034,17 10.5,15.4329966 10.5,13.5 C10.5,11.5670034 12.0670034,10 14,10 Z M20.5,4 C22.4329966,4 24,5.56700338 24,7.5 C24,9.43299662 22.4329966,11 20.5,11 C18.5670034,11 17,9.43299662 17,7.5 C17,5.56700338 18.5670034,4 20.5,4 Z M7.5,4 C9.43299662,4 11,5.56700338 11,7.5 C11,9.43299662 9.43299662,11 7.5,11 C5.56700338,11 4,9.43299662 4,7.5 C4,5.56700338 5.56700338,4 7.5,4 Z"
+                                                                                        id="🎨-Color"> </path>
+                                                                        </g>
+                                                                </g>
+                                                        </g>
+
+                                                        <g id="SVGRepo_iconCarrier">
+                                                                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                                                                <title>ic_fluent_people_community_28_filled</title>
+                                                                <desc>Created with Sketch.</desc>
+                                                                <g id="🔍-Product-Icons" stroke-width="0.00028"
+                                                                        fill="none" fill-rule="evenodd">
+                                                                        <g id="ic_fluent_people_community_28_filled"
+                                                                                fill="#ffffff" fill-rule="nonzero">
+                                                                                <path d="M17.75,18 C18.7164983,18 19.5,18.7835017 19.5,19.75 L19.5,21.7519766 L19.4921156,21.8604403 C19.1813607,23.9866441 17.2715225,25.0090369 14.0667905,25.0090369 C10.8736123,25.0090369 8.93330141,23.9983408 8.51446278,21.8965776 L8.5,21.75 L8.5,19.75 C8.5,18.7835017 9.28350169,18 10.25,18 L17.75,18 Z M18.2439108,11.9999135 L24.25,12 C25.2164983,12 26,12.7835017 26,13.75 L26,15.7519766 L25.9921156,15.8604403 C25.6813607,17.9866441 23.7715225,19.0090369 20.5667905,19.0090369 L20.3985759,19.007437 C20.0900029,17.9045277 19.1110503,17.0815935 17.9288034,17.0057197 L17.75,17 L16.8277704,17.0007255 C17.8477843,16.1757619 18.5,14.9140475 18.5,13.5 C18.5,12.9740145 18.4097576,12.4691063 18.2439108,11.9999135 Z M3.75,12 L9.75608915,11.9999135 C9.59024243,12.4691063 9.5,12.9740145 9.5,13.5 C9.5,14.8308682 10.0777413,16.0267978 10.996103,16.8506678 L11.1722296,17.0007255 L10.25,17 C8.9877951,17 7.92420242,17.85036 7.60086562,19.0094363 L7.5667905,19.0090369 C4.37361228,19.0090369 2.43330141,17.9983408 2.01446278,15.8965776 L2,15.75 L2,13.75 C2,12.7835017 2.78350169,12 3.75,12 Z M14,10 C15.9329966,10 17.5,11.5670034 17.5,13.5 C17.5,15.4329966 15.9329966,17 14,17 C12.0670034,17 10.5,15.4329966 10.5,13.5 C10.5,11.5670034 12.0670034,10 14,10 Z M20.5,4 C22.4329966,4 24,5.56700338 24,7.5 C24,9.43299662 22.4329966,11 20.5,11 C18.5670034,11 17,9.43299662 17,7.5 C17,5.56700338 18.5670034,4 20.5,4 Z M7.5,4 C9.43299662,4 11,5.56700338 11,7.5 C11,9.43299662 9.43299662,11 7.5,11 C5.56700338,11 4,9.43299662 4,7.5 C4,5.56700338 5.56700338,4 7.5,4 Z"
+                                                                                        id="🎨-Color"> </path>
+                                                                        </g>
+                                                                </g>
+                                                        </g>
+
+                                                </svg>
+                                                <div class="text">
+                                                        <h5>Caring Community</h5>
+                                                        <p>Together we grow and support</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="comment">
+                                        <div class="sub-comment">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px"
+                                                        viewBox="-6 -6 36.00 36.00" fill="none" stroke="#000000"
+                                                        stroke-width="0.00024000000000000003"
+                                                        transform="matrix(1, 0, 0, 1, 0, 0)">
+
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                                                transform="translate(0,0), scale(1)">
+
+                                                                <rect x="-6" y="-6" width="36.00" height="36.00" rx="18"
+                                                                        fill="#051e41" strokewidth="0" />
+
+                                                        </g>
+
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke="#CCCCCC"
+                                                                stroke-width="0.048" />
+
+                                                        <g id="SVGRepo_iconCarrier">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                        d="M2 6.63415C2 4.07478 4.07478 2 6.63415 2C9.19351 2 11.2683 4.07478 11.2683 6.63415C11.2683 9.19351 9.19351 11.2683 6.63415 11.2683C4.07478 11.2683 2 9.19351 2 6.63415Z"
+                                                                        fill="#ffffff" />
+                                                                <path opacity="0.5" fill-rule="evenodd"
+                                                                        clip-rule="evenodd"
+                                                                        d="M12.7324 17.3658C12.7324 14.8065 14.8072 12.7317 17.3666 12.7317C19.9259 12.7317 22.0007 14.8065 22.0007 17.3658C22.0007 19.9252 19.9259 22 17.3666 22C14.8072 22 12.7324 19.9252 12.7324 17.3658Z"
+                                                                        fill="#ffffff" />
+                                                                <path d="M2 17.5C2 15.3787 2 14.318 2.65901 13.659C3.31802 13 4.37868 13 6.5 13C8.62132 13 9.68198 13 10.341 13.659C11 14.318 11 15.3787 11 17.5C11 19.6213 11 20.682 10.341 21.341C9.68198 22 8.62132 22 6.5 22C4.37868 22 3.31802 22 2.65901 21.341C2 20.682 2 19.6213 2 17.5Z"
+                                                                        fill="#ffffff" />
+                                                                <path opacity="0.5"
+                                                                        d="M13 6.5C13 4.37868 13 3.31802 13.659 2.65901C14.318 2 15.3787 2 17.5 2C19.6213 2 20.682 2 21.341 2.65901C22 3.31802 22 4.37868 22 6.5C22 8.62132 22 9.68198 21.341 10.341C20.682 11 19.6213 11 17.5 11C15.3787 11 14.318 11 13.659 10.341C13 9.68198 13 8.62132 13 6.5Z"
+                                                                        fill="#ffffff" />
+                                                        </g>
+
+                                                </svg>
+                                                <div class="text" style="width: 167px;">
+                                                        <h5>Holistic Development</h5>
+                                                        <p>Inside and outside the classroom</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="comment">
+                                        <div class="sub-comment">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" height="80px"
+                                                        width="80px" version="1.1" id="_x32_"
+                                                        viewBox="-230.4 -230.4 972.80 972.80" xml:space="preserve"
+                                                        fill="#000000" stroke="#000000">
+
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                                                transform="translate(38.400000000000006,38.400000000000006), scale(0.85)">
+
+                                                                <rect x="-230.4" y="-230.4" width="972.80"
+                                                                        height="972.80" rx="486.4" fill="#051e41"
+                                                                        strokewidth="0" />
+
+                                                        </g>
+
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+
+                                                        <g id="SVGRepo_iconCarrier">
+                                                                <style type="text/css">
+                                                                        .st0 {
+                                                                                fill: #ffffff;
+                                                                        }
+                                                                </style>
+                                                                <g>
+                                                                        <path class="st0"
+                                                                                d="M497.679,53.348c-9.285-10.52-22.496-16.551-36.246-16.551h-47.01c-2.358-33.432-25.059-28.785-33.9-28.785 c-9.33,0-124.522,0-124.522,0s-115.191,0-124.521,0c-8.842,0-31.547-4.646-33.904,28.785h-47.01 c-13.748,0-26.959,6.033-36.246,16.551C3.064,66.1-1.793,84.503,0.594,105.255c0.442,9.219,5.098,56.574,54.09,90.256 c24.898,17.117,48.828,25.844,70.598,30.285c4.771,1.031,9.598,1.957,14.545,2.68c0.068,0.076,0.135,0.154,0.205,0.229 c101.859,107.191,89.42,45.18,89.42,143.435c0,38.092-52.771,25.762-52.771,55c0,29.236-41.129,5.174-37.322,39.863 c2.332,21.264,65.318,37.205,116.644,37.205c51.322,0,114.312-15.942,116.644-37.205c3.805-34.689-37.326-10.627-37.326-39.863 c0-29.238-52.768-16.908-52.768-55c0-98.256-12.44-36.244,89.42-143.435c0.14-0.149,0.27-0.307,0.41-0.457 c25.365-3.285,54.457-11.779,84.938-32.736c48.988-33.682,53.644-81.037,54.086-90.256 C513.794,84.503,508.935,66.098,497.679,53.348z M471.214,101.165l-0.184,0.992l0.025,1.353 c-0.096,2.625-2.006,34.916-36.621,58.715c-9.467,6.51-18.627,11.444-27.535,15.276c-2.014,0.816-4.024,1.633-6.084,2.344 c12.162-34.25,14.137-72.558,14.172-102.654h46.445c1.558,0,3.857,0.502,5.965,2.888C470.99,84.149,472.382,91.833,471.214,101.165 z M227.514,204.143c-3.805,4.799-9.436,7.299-15.117,7.299c-4.198,0-8.424-1.363-11.967-4.174 c-48.381-38.371-52.434-91.045-52.434-137.404c0-10.646,8.633-19.277,19.279-19.277c10.646,0,19.277,8.631,19.277,19.277 c0,40.676,2.895,79.482,37.836,107.195C232.73,183.676,234.129,195.802,227.514,204.143z M77.566,162.225 c-34.584-23.777-36.524-56.029-36.623-58.707l0.022-0.92l-0.18-1.434c-1.168-9.33,0.224-17.016,3.818-21.086 c2.108-2.386,4.406-2.888,5.963-2.888h46.445c0.031,25.693,1.533,57.357,9.52,87.386c1.332,5.178,2.808,10.326,4.543,15.385 C100.31,175.89,89.16,170.196,77.566,162.225z" />
+                                                                </g>
+                                                        </g>
+
+                                                </svg>
+                                                <div class="text">
+                                                        <h5>Achievement</h5>
+                                                        <p>Proud of our student's success</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="comment">
+                                        <div class="sub-comment">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="80px"
+                                                        viewBox="-9.84 -9.84 43.68 43.68" fill="none">
+
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                                                transform="translate(1.8000000000000007,1.8000000000000007), scale(0.85)">
+
+                                                                <rect x="-9.84" y="-9.84" width="43.68" height="43.68"
+                                                                        rx="21.84" fill="#051e41" strokewidth="0" />
+
+                                                        </g>
+
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+
+                                                        <g id="SVGRepo_iconCarrier">
+                                                                <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
+                                                                        stroke="#ffffff" stroke-width="2.4" />
+                                                        </g>
+
+                                                </svg>
+                                                <div class="text">
+                                                        <h5>Discipline & Value</h5>
+                                                        <p>Building responsible citizen</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <hr>
+                        <div class="bottom-page">
+                                <div class="about-school">
+                                        <h1 class="head1">About Our School</h1>
+                                        <p>T/KIN/Central College National School is a well-respected school with a proud
+                                                history of academin exellence, discpline and community spirit. We are
+                                                commited to providing quality education, nurturing talent and shaping
+                                                responsible citizen for a better tomorrow...</p>
+                                        <button class="lm-btn">Learn more
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                                        viewBox="0 -960 960 960" width="24px" fill="#051e41">
+                                                        <path
+                                                                d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
+                                                </svg>
+                                        </button>
+                                        <div class="scl-details">
+                                                <div class="detail">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="100px"
+                                                                height="100px" viewBox="-8.4 -8.4 44.80 44.80"
+                                                                version="1.1" fill="#000000" stroke="#000000"
+                                                                transform="matrix(1, 0, 0, 1, 0, 0)">
+                                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                                        stroke-linejoin="round" stroke="#CCCCCC"
+                                                                        stroke-width="5.4879999999999995">
+                                                                        <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                                                                        <title>ic_fluent_people_community_28_filled
+                                                                        </title>
+                                                                        <desc>Created with Sketch.</desc>
+                                                                        <g id="🔍-Product-Icons" stroke-width="0.00028"
+                                                                                fill="none" fill-rule="evenodd">
+                                                                                <g id="ic_fluent_people_community_28_filled"
+                                                                                        fill="#ffffff"
+                                                                                        fill-rule="nonzero">
+                                                                                        <path d="M17.75,18 C18.7164983,18 19.5,18.7835017 19.5,19.75 L19.5,21.7519766 L19.4921156,21.8604403 C19.1813607,23.9866441 17.2715225,25.0090369 14.0667905,25.0090369 C10.8736123,25.0090369 8.93330141,23.9983408 8.51446278,21.8965776 L8.5,21.75 L8.5,19.75 C8.5,18.7835017 9.28350169,18 10.25,18 L17.75,18 Z M18.2439108,11.9999135 L24.25,12 C25.2164983,12 26,12.7835017 26,13.75 L26,15.7519766 L25.9921156,15.8604403 C25.6813607,17.9866441 23.7715225,19.0090369 20.5667905,19.0090369 L20.3985759,19.007437 C20.0900029,17.9045277 19.1110503,17.0815935 17.9288034,17.0057197 L17.75,17 L16.8277704,17.0007255 C17.8477843,16.1757619 18.5,14.9140475 18.5,13.5 C18.5,12.9740145 18.4097576,12.4691063 18.2439108,11.9999135 Z M3.75,12 L9.75608915,11.9999135 C9.59024243,12.4691063 9.5,12.9740145 9.5,13.5 C9.5,14.8308682 10.0777413,16.0267978 10.996103,16.8506678 L11.1722296,17.0007255 L10.25,17 C8.9877951,17 7.92420242,17.85036 7.60086562,19.0094363 L7.5667905,19.0090369 C4.37361228,19.0090369 2.43330141,17.9983408 2.01446278,15.8965776 L2,15.75 L2,13.75 C2,12.7835017 2.78350169,12 3.75,12 Z M14,10 C15.9329966,10 17.5,11.5670034 17.5,13.5 C17.5,15.4329966 15.9329966,17 14,17 C12.0670034,17 10.5,15.4329966 10.5,13.5 C10.5,11.5670034 12.0670034,10 14,10 Z M20.5,4 C22.4329966,4 24,5.56700338 24,7.5 C24,9.43299662 22.4329966,11 20.5,11 C18.5670034,11 17,9.43299662 17,7.5 C17,5.56700338 18.5670034,4 20.5,4 Z M7.5,4 C9.43299662,4 11,5.56700338 11,7.5 C11,9.43299662 9.43299662,11 7.5,11 C5.56700338,11 4,9.43299662 4,7.5 C4,5.56700338 5.56700338,4 7.5,4 Z"
+                                                                                                id="🎨-Color"> </path>
+                                                                                </g>
+                                                                        </g>
+                                                                </g>
+
+                                                                <g id="SVGRepo_iconCarrier">
+                                                                        <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                                                                        <title>ic_fluent_people_community_28_filled
+                                                                        </title>
+                                                                        <desc>Created with Sketch.</desc>
+                                                                        <g id="🔍-Product-Icons" stroke-width="0.00028"
+                                                                                fill="none" fill-rule="evenodd">
+                                                                                <g id="ic_fluent_people_community_28_filled"
+                                                                                        fill="#ffffff"
+                                                                                        fill-rule="nonzero">
+                                                                                        <path d="M17.75,18 C18.7164983,18 19.5,18.7835017 19.5,19.75 L19.5,21.7519766 L19.4921156,21.8604403 C19.1813607,23.9866441 17.2715225,25.0090369 14.0667905,25.0090369 C10.8736123,25.0090369 8.93330141,23.9983408 8.51446278,21.8965776 L8.5,21.75 L8.5,19.75 C8.5,18.7835017 9.28350169,18 10.25,18 L17.75,18 Z M18.2439108,11.9999135 L24.25,12 C25.2164983,12 26,12.7835017 26,13.75 L26,15.7519766 L25.9921156,15.8604403 C25.6813607,17.9866441 23.7715225,19.0090369 20.5667905,19.0090369 L20.3985759,19.007437 C20.0900029,17.9045277 19.1110503,17.0815935 17.9288034,17.0057197 L17.75,17 L16.8277704,17.0007255 C17.8477843,16.1757619 18.5,14.9140475 18.5,13.5 C18.5,12.9740145 18.4097576,12.4691063 18.2439108,11.9999135 Z M3.75,12 L9.75608915,11.9999135 C9.59024243,12.4691063 9.5,12.9740145 9.5,13.5 C9.5,14.8308682 10.0777413,16.0267978 10.996103,16.8506678 L11.1722296,17.0007255 L10.25,17 C8.9877951,17 7.92420242,17.85036 7.60086562,19.0094363 L7.5667905,19.0090369 C4.37361228,19.0090369 2.43330141,17.9983408 2.01446278,15.8965776 L2,15.75 L2,13.75 C2,12.7835017 2.78350169,12 3.75,12 Z M14,10 C15.9329966,10 17.5,11.5670034 17.5,13.5 C17.5,15.4329966 15.9329966,17 14,17 C12.0670034,17 10.5,15.4329966 10.5,13.5 C10.5,11.5670034 12.0670034,10 14,10 Z M20.5,4 C22.4329966,4 24,5.56700338 24,7.5 C24,9.43299662 22.4329966,11 20.5,11 C18.5670034,11 17,9.43299662 17,7.5 C17,5.56700338 18.5670034,4 20.5,4 Z M7.5,4 C9.43299662,4 11,5.56700338 11,7.5 C11,9.43299662 9.43299662,11 7.5,11 C5.56700338,11 4,9.43299662 4,7.5 C4,5.56700338 5.56700338,4 7.5,4 Z"
+                                                                                                id="🎨-Color"> </path>
+                                                                                </g>
+                                                                        </g>
+                                                                </g>
+
+                                                        </svg>
+                                                        <div class="content2">
+                                                                <h6 style="margin: 0;">Students</h6>
+                                                                <h1 style="margin: 0; font-weight: 900;">2000+</h1>
+                                                        </div>
+                                                </div>
+                                                <span></span>
+                                                <div class="detail">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"
+                                                                version="1.1" id="Capa_1" width="70px" height="70px"
+                                                                viewBox="0 0 38.907 38.907" xml:space="preserve">
+                                                                <g>
+                                                                        <path
+                                                                                d="M15.611,3.706c0-2.422,1.72-3.706,3.842-3.706s3.842,1.283,3.842,3.706c0,2.421-1.721,5.06-3.842,5.06   C17.33,8.766,15.611,6.127,15.611,3.706z M9.952,7.961c1.885,0,3.412-2.344,3.412-4.494c0-2.15-1.527-3.291-3.412-3.291   c-1.885,0-3.412,1.141-3.412,3.291C6.538,5.617,8.066,7.961,9.952,7.961z M28.951,7.961c1.885,0,3.412-2.344,3.412-4.494   c0-2.15-1.527-3.291-3.412-3.291c-1.886,0-3.412,1.141-3.412,3.291C25.539,5.617,27.065,7.961,28.951,7.961z M34.184,9.425   c-0.28-0.284-0.664-0.443-1.063-0.443h-3.235l-0.564,0.754l1.037,5.88l-1.406,1.325l-1.404-1.325l1.037-5.88L28.02,8.982h-3.231   c-0.019,0-0.035,0.004-0.053,0.005c0.495,0.112,0.959,0.359,1.319,0.725c0.502,0.504,0.785,1.203,0.779,1.917l-0.096,10.529   c-0.012,1.057-0.598,1.941-1.453,2.377v8.199c0,1.104,0.896,2,2,2c0.695,0,1.309-0.357,1.666-0.898   c0.357,0.541,0.971,0.898,1.668,0.898c1.104,0,2-0.896,2-2V21.268c0.129,0.037,0.262,0.063,0.402,0.064   c0.852,0.034,1.506-0.658,1.514-1.486l0.086-9.351C34.623,10.094,34.467,9.71,34.184,9.425z M12.072,22.271l0.001-10.669   c0-1.277,0.897-2.345,2.094-2.617c-0.016,0-0.031-0.004-0.046-0.004h-3.236L10.32,9.735l1.038,5.88L9.952,16.94l-1.406-1.325   l1.038-5.88L9.019,8.981H5.787c-0.828,0-1.5,0.671-1.5,1.5l-0.001,9.476c0,0.828,0.671,1.5,1.5,1.5c0.176,0,0.343-0.036,0.5-0.092   v11.367c0,1.104,0.896,2,2,2c0.697,0,1.309-0.357,1.667-0.898c0.358,0.541,0.97,0.898,1.667,0.898c1.104,0,2-0.896,2-2v-8.037   C12.707,24.264,12.072,23.346,12.072,22.271z M25.344,10.415c-0.316-0.32-0.748-0.5-1.199-0.5h-3.644l-0.637,0.849l1.168,6.62   l-1.583,1.492l-1.583-1.492l1.169-6.62l-0.637-0.849H14.76c-0.933,0-1.689,0.756-1.689,1.688l-0.001,10.67   c0,0.933,0.756,1.688,1.688,1.688c0.199,0,0.386-0.041,0.563-0.104v12.798c0,1.243,1.008,2.252,2.252,2.252   c0.785,0,1.474-0.402,1.877-1.011c0.403,0.607,1.092,1.011,1.875,1.011c1.244,0,2.252-1.009,2.252-2.252V23.747   c0.146,0.042,0.295,0.072,0.455,0.074c0.959,0.038,1.693-0.741,1.703-1.673l0.096-10.528   C25.837,11.168,25.662,10.735,25.344,10.415z" />
+                                                                </g>
+                                                        </svg>
+                                                        <div class="content2">
+                                                                <h6 style="margin: 0;">Teachers</h6>
+                                                                <h1 style="margin: 0; font-weight: 900;">150+</h1>
+                                                        </div>
+                                                </div>
+                                                <span></span>
+                                                <div class="detail">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" height="70px"
+                                                                viewBox="0 -960 960 960" width="70px" fill="#fff">
+                                                                <path
+                                                                        d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-188.5-11.5Q280-423 280-440t11.5-28.5Q303-480 320-480t28.5 11.5Q360-457 360-440t-11.5 28.5Q337-400 320-400t-28.5-11.5ZM640-400q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-188.5-11.5Q280-263 280-280t11.5-28.5Q303-320 320-320t28.5 11.5Q360-297 360-280t-11.5 28.5Q337-240 320-240t-28.5-11.5ZM640-240q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z" />
+                                                        </svg>
+                                                        <div class="content2">
+                                                                <h6 style="margin: 0;">Established</h6>
+                                                                <h1 style="margin: 0; font-weight: 900;"> September 2,
+                                                                        1958 </h1>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="footer">
+                                <div class="header2">
+                                        <img src="./Scl_project_images/Logo.png" class="logo2">
+                                        <div class="scl_name">
+                                                <p style="color: white; font-size: 14px; font-weight: 600;letter-spacing: 3px; padding-top: 15px;">T/KIN/CENTRAL COLLAGE</p>
+                                                <p style="color: #ffe647; font-size: 14px; font-weight: 600;letter-spacing: 3px;"">National School</p>
+                                        </div>
+                                </div>
+                                <div class=" motto">
+                                                <p style=" color: white; font-size: 13px; margin: 0;">Learn ∘ Grow ∘ Build a Better
+                                                        Tomorrow
+                                                </p>
+                                        </div>
+
+                        </div>
+                </div>
+        </div>
+
+
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/KCC.js"></script>
+</body>
+
+</html>
